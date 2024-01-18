@@ -51,25 +51,48 @@ header .info{
     justify-content: space-between;
 }
 
-#navbar .navlinks_{
+#navbar .navlinks{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 3.4vw;
+    gap: 0vw;
+    /* background-color: red; */
 }
-.navlinks_ li{
+.navlinks li{
     list-style: none;
     color: #FFFFFF;
-    font-size: 0.9vw;
-    font-weight: 500;
+    font-size: 0.95vw;
+    font-weight: 596;
+    height: 13.29vh;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0vw 1.5vw;
+ /* background-color: #8d2020; */
+    
 }
+
+/* dropdown menu */
+
+.Drop_down_menu{
+      display: none;
+}
+
+.navlinks li:hover{
+   background-color: #BAA06A;
+   cursor: pointer;
+  
+}
+
+/* dropdown menu ends */
 
 #navbar .searchbar{
     width: 28%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 1.4vw;
+    margin-left: 0.3vw;
 
 }
 #navbar .searchbar input{
@@ -93,6 +116,8 @@ header .info{
     font-size: 0.9vw;
     font-weight: 500;
     cursor: pointer;
+    margin-left: 1vw;
+   
 }
 
 .cart span i, .Sign_in span i{
